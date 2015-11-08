@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="姓名："
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:id="@+id/name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单位："
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:id="@+id/danwei" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="电话："
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:id="@+id/mobile" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q Q ："
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:id="@+id/qq" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地址："
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"
+        android:id="@+id/address" />
+
+</LinearLayout>
